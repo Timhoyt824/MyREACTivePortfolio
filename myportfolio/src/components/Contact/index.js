@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import "./style.css";
 import AOS from "aos";
 
 function Contact() {
@@ -19,17 +20,17 @@ function Contact() {
         <div className="row justify-content-center contact-row">
           <div className="col-12">
             <a href="mailto:timhoyt824@gmail.com">
-              <i className="fa fa-envelope-o fa-2x social-link" aria-hidden="true"></i>Email: timhoyt824@gmail.com</a>
+              <i className="fa fa-envelope-o fa-2x social-link" aria-hidden="true"></i>Email</a>
           </div>
 
           <div className="col-12 col-md-3">
             <a href="https://github.com/timhoyt824">
-              <i className="fa fa-github fa-2x social-link" aria-hidden="true"></i>Github: timhoyt824</a>
+              <i className="fa fa-github fa-2x social-link" aria-hidden="true"></i>Github</a>
           </div>
 
           <div className="col-12 col-md-3">
             <a href="www.linkedin.com/in/timhoyt824">
-              <i className="fa fa-linkedin fa-2x social-link" aria-hidden="true"></i>Linkedin: timhoyt824</a>
+              <i className="fa fa-linkedin fa-2x social-link" aria-hidden="true"></i>Linkedin</a>
           </div>
         </div>
 

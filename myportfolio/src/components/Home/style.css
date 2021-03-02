@@ -1,0 +1,38 @@
+
+div.home-container {
+    padding-top: 175px;
+  }
+  
+  section#home h1 {
+    font-size: 36px;
+  }
+  
+  section#home h2 {
+    font-size: 36px;
+    margin-bottom: 20px;
+    animation-delay: 0.5s;
+  }
+  
+  section#home a {
+    animation-delay: 1s;
+  }
+  
+  section#home button {
+    background: rgba(204, 204, 204, 0);
+    color: black;
+    border: 2px solid black;
+  }
+    
+  section#home button:hover {
+    background-color: #1d3fd6;
+    color: white;
+  }
+  
+  section#home i {
+    margin-left: 10px;
+  }
+  
+  span.name {
+    color: #1d3fd6;
+    font-size: 48px;
+  }

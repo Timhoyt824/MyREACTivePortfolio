@@ -1,3 +1,4 @@
+import "./style.css";
 import Pdf from "../../assets/tim_hoyt_resume.pdf";
 
 function Navbar() {
@@ -18,10 +19,10 @@ function Navbar() {
         </ul>
       </div>
 
-      <a href="https://github.com/Timhoyt824"><i class="fa fa-github fa-lg" aria-hidden="true"></i></a>
-      <a href="www.linkedin.com/in/timhoyt824"><i class="fa fa-linkedin fa-lg" aria-hidden="true"></i></a>
-      <a href= {Pdf} target="tim_hoyt_resume.pdf"><i class="fa fa-file-text-o fa-lg" aria-hidden="true"></i></a>
-      <a href="mailto:best.timhoyt824@gmail.com"><i class="fa fa-envelope-o fa-lg" aria-hidden="true"></i></a>
+      <a href="https://github.com/Timhoyt824"><i class="fab fa-github fa-lg" aria-hidden="true"></i></a>
+      <a href="www.linkedin.com/in/timhoyt824"><i class="fab fa-linkedin fa-lg" aria-hidden="true"></i></a>
+      <a href= {Pdf} target="tim_hoyt_resume.pdf"><i class="far fa-file-alt fa-lg" aria-hidden="true"></i></a>
+      <a href="mailto:best.timhoyt824@gmail.com"><i class="fas fa-at fa-lg" aria-hidden="true"></i></a>
 
     </nav>
   )

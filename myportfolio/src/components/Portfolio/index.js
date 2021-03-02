@@ -1,4 +1,5 @@
 import React, { useState, useEffect } from "react";
+import "./style.css";
 import Item from "./Item";
 import AOS from "aos";
 
@@ -16,7 +17,7 @@ function Portfolio() {
     {
       id: 1,
       name: "Brewery Finder",
-      image: "",
+      image: "https://via.placeholder.com/150/",
       tech: "jQuery / Foundation",
       link: "https://dillonhoban.github.io/The_BEST_Brewery_Finder/",
       github: "https://github.com/dillonhoban/The_BEST_Brewery_Finder"
@@ -24,7 +25,7 @@ function Portfolio() {
     {
       id: 2,
       name: "Space Invaders",
-      image: "",
+      image: "https://via.placeholder.com/150/",
       tech: "Express / Passport",
       link: "https://project-two-pat-glenn-amanda.herokuapp.com/",
       github: "https://github.com/veryfaye/ProjectTwo"
@@ -32,7 +33,7 @@ function Portfolio() {
     {
       id: 3,
       name: "Vulcan",
-      image: "",
+      image: "https://via.placeholder.com/150/",
       tech: "React.js / MySQL",
       link: "",
       github: "https://github.com/maninblack1974/Vulcan"

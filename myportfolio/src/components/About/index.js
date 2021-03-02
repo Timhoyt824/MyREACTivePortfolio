@@ -1,3 +1,4 @@
+import "./style.css";
 import picture from "../../assets/ProfilePic.jpg";
 
 
@@ -18,21 +19,21 @@ function About() {
             <div className="row justify-content-center icon-row">
               <div className="col-4 col-md-3">
                 <div className="circle">
-                  <i class="fa fa-mobile fa-5x" aria-hidden="true"></i>
+                  <i class="fas fa-user-tie fa-4x" aria-hidden="true"></i>
                 </div>
-                <h2 className="responsive">Responsive</h2>
+                <h2 className="responsive">Professional</h2>
               </div>
               <div className="col-4 col-md-3">
                 <div className="circle">
-                  <i class="fa fa-lightbulb-o fa-5x" aria-hidden="true"></i>
+                  <i class="fas fa-database fa-4x" aria-hidden="true"></i>
                 </div>
-                <h2 className="intuitive">Intuitive</h2>
+                <h2 className="intuitive">Powerful</h2>
               </div>
               <div className="col-4 col-md-3">
                 <div className="circle">
-                  <i class="fa fa-cog fa-5x" aria-hidden="true"></i>
+                  <i class="fas fa-user-friends fa-4x" aria-hidden="true"></i>
                 </div>
-                <h2 className="dynamic">Dynamic</h2>
+                <h2 className="dynamic">Approachable</h2>
               </div>
             </div>
 

@@ -1,3 +1,4 @@
+import "./style.css";
 import Pdf from "../../assets/tim_hoyt_resume.pdf";
 
 function Footer() {
