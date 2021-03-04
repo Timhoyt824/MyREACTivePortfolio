@@ -18,19 +18,18 @@ function Contact() {
           I can work independently or with any size team. </p>
 
         <div className="row justify-content-center contact-row">
-          <div className="col-12">
+          <div className="col-12 col-md-3">
             <a href="mailto:timhoyt824@gmail.com">
-              <i className="fa fa-envelope-o fa-2x social-link" aria-hidden="true"></i>Email</a>
+              <i className="fas fa-at fa-2x social-link" aria-hidden="true"></i>Email</a>
           </div>
 
           <div className="col-12 col-md-3">
             <a href="https://github.com/timhoyt824">
-              <i className="fa fa-github fa-2x social-link" aria-hidden="true"></i>Github</a>
+              <i className="fab fa-github fa-2x social-link" aria-hidden="true"></i>Github</a>
           </div>
-
           <div className="col-12 col-md-3">
             <a href="www.linkedin.com/in/timhoyt824">
-              <i className="fa fa-linkedin fa-2x social-link" aria-hidden="true"></i>Linkedin</a>
+              <i className="fab fa-linkedin fa-2x social-link" aria-hidden="true"></i>Linkedin</a>
           </div>
         </div>
 

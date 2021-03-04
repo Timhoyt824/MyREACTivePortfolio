@@ -5,8 +5,7 @@ function Home() {
     <section id="home">
 
       <div className="container home-container">
-        <h1 className="animate__animated animate__fadeIn">Hi, I'm <span className="name">Tim Hoyt.</span></h1>
-        <h2 className="animate__animated animate__fadeIn">I'm a full-stack web developer.</h2>
+        <h1 className="animate__animated animate__fadeIn">Hi, I'm <span className="name">Tim Hoyt,</span> a full-stack web developer.</h1>
         <a href="#about" className="animate__animated animate__fadeIn"> 
           <button className="btn btn-primary">Check out my work
           <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i></button></a>

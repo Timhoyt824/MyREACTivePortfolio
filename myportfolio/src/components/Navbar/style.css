@@ -8,7 +8,7 @@ nav {
   
   nav a:hover {
     transform: scale(1.2);
-    color: #24a0ed;
+    color: #1d3fd6;
   }
   
   nav i {
@@ -17,5 +17,5 @@ nav {
   
   nav i:hover {
     transform: scale(1.2);
-    color: #24a0ed;
+    color: #1d3fd6;
   }

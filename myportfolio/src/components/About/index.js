@@ -7,7 +7,6 @@ function About() {
     <section id="about">
 
       <div className="container page-container">
-        <h1 data-aos="fade-up">About me.</h1>
         <div className="row justify-content-center">
           <div className="col-12 col-md-4 img-column" data-aos="zoom-in-right">
             <img src={picture}></img>
@@ -36,8 +35,6 @@ function About() {
                 <h2 className="dynamic">Approachable</h2>
               </div>
             </div>
-
-            <p>Some of my latest project are below.</p>
           </div>
         </div>
 
