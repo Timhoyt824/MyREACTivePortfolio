@@ -1,65 +1,37 @@
-import React, { useState, useEffect } from "react";
-import "./style.css";
-import Item from "./Item";
-import AOS from "aos";
-
 function Portfolio() {
 
-  const [state, setState] = useState([]);
-
-  useEffect(() => {
-    setState(PortfolioItems);
-    AOS.init();
-    AOS.refresh();
-  }, []);
-
-  const PortfolioItems = [
-    {
-      id: 1,
-      name: "Brewery Finder",
-      image: "https://via.placeholder.com/150/",
-      tech: "jQuery / Foundation",
-      link: "https://dillonhoban.github.io/The_BEST_Brewery_Finder/",
-      github: "https://github.com/dillonhoban/The_BEST_Brewery_Finder"
-    },
-    {
-      id: 2,
-      name: "Space Invaders",
-      image: "https://via.placeholder.com/150/",
-      tech: "Express / Passport",
-      link: "https://project-two-pat-glenn-amanda.herokuapp.com/",
-      github: "https://github.com/veryfaye/ProjectTwo"
-    },
-    {
-      id: 3,
-      name: "Vulcan",
-      image: "https://via.placeholder.com/150/",
-      tech: "React.js / MySQL",
-      link: "",
-      github: "https://github.com/maninblack1974/Vulcan"
-    }
-  ]
-
   return (
-    <section id="portfolio">
+  <section id="portfolio">
+    <div className="container">
+    <h1 className="fw-light">Portfolio</h1>
+     <div className="row">
+      <div className="col-lg-4">
+        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
 
-      <div className="container page-container portfolio-container">
-        <h1 data-aos="fade-up">My portfolio.</h1>
-        <div className="row">
-
-          {state.map(item => (
-            <Item
-              name={item.name}
-              tech={item.tech}
-              image={item.image}
-              link={item.link}
-              github={item.github}
-            />
-          ))}
-
-        </div>
+        <h2>Brewery Finder</h2>
+        <p>A web app that leverages jQuery for the logic and Foundation for CSS framework to retrieve lists of breweries in an area based on a user input.</p>
+        <p><a className="btn btn-secondary" href="https://github.com/dillonhoban/The_BEST_Brewery_Finder">View the code &raquo;</a></p>
+        <p><a href="https://dillonhoban.github.io/The_BEST_Brewery_Finder/" className="btn btn-secondary">Visit the site &raquo;</a></p>
       </div>
-    </section>
+      <div className="col-lg-4">
+        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Space Invaders</h2>
+        <p>A web app utilizes express and passport to validate users with an email login. User data, including high scores are stored in a MySQL database.</p>
+        <p><a className="btn btn-secondary" href="https://github.com/veryfaye/ProjectTwo">View the code &raquo;</a></p>
+        <p><a href="https://project-two-pat-glenn-amanda.herokuapp.com/" className="btn btn-secondary">Visit the site &raquo;</a></p>
+      </div>
+      <div className="col-lg-4">
+        <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+
+        <h2>Vulcan</h2>
+        <p>A web app that connects small businesses, specifically restaurants, with service providers that specialize in restuarant work, using React. Currently in development.</p>
+        <p><a className="btn btn-secondary" href="https://github.com/maninblack1974/Vulcan">View the code &raquo;</a></p>
+        <p><a href="#" className="btn btn-secondary">Visit the site &raquo;</a></p>
+      </div>
+    </div> 
+  </div>
+  </section>
   )
 }
 

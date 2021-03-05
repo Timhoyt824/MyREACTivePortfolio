@@ -1,17 +1,16 @@
-import "./style.css";
-
 function Home() {
   return (
-    <section id="home">
-
-      <div className="container home-container">
-        <h1 className="animate__animated animate__fadeIn">Hi, I'm <span className="name">Tim Hoyt,</span> a full-stack web developer.</h1>
-        <a href="#about" className="animate__animated animate__fadeIn"> 
-          <button className="btn btn-primary">Check out my work
-          <i class="fa fa-angle-double-right fa-lg" aria-hidden="true"></i></button></a>
+    <section id=" home py-5 text-center container">
+    <div className="row py-lg-5">
+      <div class="col-lg-6 col-md-8 mx-auto">
+        <h1 class="fw-light">Tim Hoyt</h1>
+        <p class="lead text-muted">A full stack web developer with a background in Politcal Science and a passion for learning!</p>
+        <p>
+          <a href="#portfolio" class="btn btn-primary my-2">Check out my work!</a>
+        </p>
       </div>
-
-    </section>
+    </div>
+  </section>
   )
 }
 
